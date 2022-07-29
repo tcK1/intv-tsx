@@ -4,7 +4,7 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "npx watch ./file.ts": {
+    "exec": {
       "name": "npx tsx watch ./file.ts",
       "command": "npx tsx watch ./file.ts",
       "runAtStart": true
